@@ -23,11 +23,8 @@ def remove_filler_for_pair(word):
 
 def calculate_vcr(word):
     vc = 0
-    ignored = 0
     for c in word:
         if c in vowels:
             vc += 1
-        if c in ignore:
-            ignored += 1
 
-    return vc / (len(word) - ignored)
+    return vc / len(word)
