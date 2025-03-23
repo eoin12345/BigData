@@ -1,0 +1,13 @@
+
+--- Performance Metrics for Optimised spark ---
+Section              Memory Change (MB)   Total Memory (MB)    Time (s)  
+----------------------------------------------------------------------
+Big countries        789.48               942.19               7.2050    
+Temperature          2.83                 945.02               1.2098    
+Setup spark          -2.72                942.29               4.2151    
+Spark computations   0.02                 942.31               15.6335   
+
+Peak memory usage: 945.02 MB
+
+Total time taken: 28.26s
+----------------------------------------------------------------------

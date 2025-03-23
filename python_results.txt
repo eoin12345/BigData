@@ -1,0 +1,25 @@
+
+--- Performance Metrics for Unoptimised python ---
+Section              Memory Change (MB)   Total Memory (MB)    Time (s)
+----------------------------------------------------------------------
+Big countries        782.13               933.71               6.9706
+Temperature          6.82                 940.53               2.0641
+Small countries      433.36               1373.88              10.9033
+Cleaning + vcr       333.36               1707.25              22.1362
+Aggregation          -56.51               1650.73              13.1866
+
+Peak memory usage: 1707.25 MB
+
+Total time taken: 55.26s
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+--- Performance Metrics for Computations ---
+Section              Memory Change (MB)   Total Memory (MB)    Time (s)
+----------------------------------------------------------------------
+Not optimised        710.21               1650.73              46.2266
+
+Peak memory usage: 1650.73 MB
+
+Total time taken: 46.23s
+----------------------------------------------------------------------
